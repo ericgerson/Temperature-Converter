@@ -1,0 +1,75 @@
+/*Styleshhet for temperature converter project
+	Date: 12/18/18
+	filename: styles.css
+*/
+
+html{
+	background: url("thermo.jpg") center/cover no-repeat fixed;
+	/*background-color: rgb(103, 143, 212); */
+}
+
+body {
+	background-color:rgb(255, 237, 74);
+	width: 600px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+header {
+	text-align: center;
+	font-size:24px;
+	font-family:Arial;
+	text-shadow: 3px 3px 10px RoyalBlue;
+}
+
+article > h2 {
+	text-align: center;
+	font-family:Verdana;
+	text-shadow: 3px 3px 10px RoyalBlue;
+}
+
+form{
+	height: 140px;
+	padding: 10px;
+	font-weight:bold;
+}
+
+fieldset{
+	margin-left: 15px;
+	float:left;
+	width:25%;
+	height: 100px;
+	text-align:center;
+}
+
+input{
+	width: 80px;	
+	margin-top: 20px;
+	background-color: LightGoldenRodYellow;
+	color: MidnightBlue;
+	text-align: center;
+	font-weight: bold;
+}
+	
+
+input:focus {
+	background-color: LightGoldenRodYellow;
+	color: MediumBlue;
+	text-align: center;
+}
+
+p {
+	margin-top: 0px;
+}
+
+#button {
+	margin-top:45px;
+	transition: box-shadow 2s;
+	font-weight:bold;
+	transition: text-shadow 1s;
+}
+
+#button:hover {
+	box-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 3px rgb(0,130,255);
+}
